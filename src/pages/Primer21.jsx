@@ -23,10 +23,7 @@ export default function Primer_2_in_1() {
           <h1 className="row-1-about-company">Primer 2-in-1</h1>
         </section>
         <section className="product-indepth nC-product">
-          <img
-            src="../../public/nC-item2.jpg"
-            className="product-indepth-pic"
-          />
+          <img src="./nC-item2.jpg" className="product-indepth-pic" />
           <section className="product-detail-product">
             <h1>ABOUT Primer 2-in-1</h1>
             <p>

@@ -28,7 +28,7 @@ export default function AboutPage() {
         <section className="about-row2">
           <section className="about-row2-img-wrapper" data-aos="fade-right">
             <img
-              src="../../public/home-2-ex.png"
+              src="./home-2-ex.png"
               className="about-row2-pic1"
               data-aos="fade-up"
             />
@@ -60,7 +60,7 @@ export default function AboutPage() {
           </section>
           <section className="about-row3-img-wrapper" data-aos="fade-right">
             <img
-              src="../../public/REVOWRAP-225.png"
+              src="./REVOWRAP-225.png"
               className="about-carbontech"
               data-aos="fade-up"
             />
@@ -69,7 +69,7 @@ export default function AboutPage() {
         <section className="about-row2">
           <section className="about-row2-img-wrapper" data-aos="fade-right">
             <img
-              src="../../public/nc-item.jpg"
+              src="./nC-item.jpg"
               className="about-row2-pic2"
               data-aos="fade-up"
             />
@@ -91,14 +91,14 @@ export default function AboutPage() {
           <section className="about-standards-picture-wrap">
             <section className="about-row2-circle">
               <img
-                src="../../public/asme.png"
+                src="./asme.png"
                 className="circle-logo"
                 data-aos="fade-left"
               />
             </section>
             <section className="about-row2-circle">
               <img
-                src="../../public/iso.png"
+                src="./iso.png"
                 className="circle-logo"
                 data-aos="fade-right"
               />

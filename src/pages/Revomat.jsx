@@ -14,13 +14,10 @@ export default function Revowrap225() {
           </section>
         </section>
         <section className="product-carbontech">
-          <img src="../../public/carbontech.png" className="logo-carbontech" />
+          <img src="./carbontech.png" className="logo-carbontech" />
         </section>
         <section className="product-indepth">
-          <img
-            src="../../public/REVOWRAP-80.jpg"
-            className="product-indepth-pic"
-          />
+          <img src="./REVOWRAP-80.jpg" className="product-indepth-pic" />
           <section className="product-detail-product">
             <h1>ABOUT REVOMAT</h1>
             <p>

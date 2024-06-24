@@ -26,7 +26,7 @@ export default function LeakArrestors() {
               className="product-row-2-1-el"
               onClick={scrollToTop}
             >
-              <img src="../../public/product-6.jpg" className="product-el" />
+              <img src="./product-6.jpg" className="product-el" />
               <section className="product-row-2-1-el-decoration">
                 <h1>Spitze HP Clamp</h1>
                 <section className="product-row-2-1-decoration-wrap">

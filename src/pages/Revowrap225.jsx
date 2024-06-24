@@ -14,13 +14,10 @@ export default function Revowrap225() {
           </section>
         </section>
         <section className="product-carbontech">
-          <img src="../../public/carbontech.png" className="logo-carbontech" />
+          <img src="./carbontech.png" className="logo-carbontech" />
         </section>
         <section className="product-indepth">
-          <img
-            src="../../public/REVOWRAP-225.png"
-            className="product-indepth-pic"
-          />
+          <img src="./REVOWRAP-225.png" className="product-indepth-pic" />
           <section className="product-detail-product">
             <h1>ABOUT REVOWRAP 225</h1>
             <p>
@@ -44,10 +41,7 @@ export default function Revowrap225() {
           </section>
         </section>
         <section className="product-table-wrapper">
-          <img
-            src="../../public/revowrap-225-table.png"
-            className="product-table"
-          />
+          <img src="./revowrap-225-table.png" className="product-table" />
         </section>
         <section className="product-button-wrapper">
           <a

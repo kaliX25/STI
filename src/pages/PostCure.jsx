@@ -26,7 +26,7 @@ export default function PostCure() {
               className="product-row-2-1-el"
               onClick={scrollToTop}
             >
-              <img src="../../public/product-5.jpg" className="product-el" />
+              <img src="./product-5.jpg" className="product-el" />
               <section className="product-row-2-1-el-decoration">
                 <h1>Revomat</h1>
                 <section className="product-row-2-1-decoration-wrap">
@@ -44,7 +44,7 @@ export default function PostCure() {
           </section>
         </section>
         <section className="product-carbontech">
-          <img src="../../public/carbontech.png" className="logo-carbontech" />
+          <img src="./carbontech.png" className="logo-carbontech" />
         </section>
       </main>
       <Footer />

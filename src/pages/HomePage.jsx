@@ -56,7 +56,7 @@ export default function HomePage() {
         </section>
         <section className="row-2">
           <img
-            src="../../public/home-2-ex.png"
+            src="./home-2-ex.png"
             alt="sedulur sedulur"
             className="row-2-pic"
           />
@@ -101,10 +101,7 @@ export default function HomePage() {
           >
             <SwiperSlide className="ss1">
               <section className="row-3-overlay"></section>
-              <img
-                src="../../public/home-3_LE_auto_x2.jpg"
-                className="row-3-pic"
-              />
+              <img src="./home-3_LE_auto_x2.jpg" className="row-3-pic" />
               <section className="row-3-slide-detail">
                 <h1 className="row-3-slide-detail-title">
                   TRANSMISSION PIPELINES
@@ -119,10 +116,7 @@ export default function HomePage() {
             </SwiperSlide>
             <SwiperSlide className="ss2">
               <section className="row-3-overlay"></section>
-              <img
-                src="../../public/home-5_LE_auto_x2.jpg"
-                className="row-3-pic"
-              />
+              <img src="./home-5_LE_auto_x2.jpg" className="row-3-pic" />
               <section className="row-3-slide-detail">
                 <h1 className="row-3-slide-detail-title">OFFSHORE</h1>
                 <section className="row-3-slide-decoration">
@@ -133,10 +127,7 @@ export default function HomePage() {
             </SwiperSlide>
             <SwiperSlide className="ss3">
               <section className="row-3-overlay"></section>
-              <img
-                src="../../public/home-4_LE_auto_x2.jpg"
-                className="row-3-pic"
-              />
+              <img src="./home-4_LE_auto_x2.jpg" className="row-3-pic" />
               <section className="row-3-slide-detail">
                 <h1 className="row-3-slide-detail-title">ONSHORE</h1>
                 <section className="row-3-slide-decoration">
@@ -147,7 +138,7 @@ export default function HomePage() {
             </SwiperSlide>
             <SwiperSlide className="ss4">
               <section className="row-3-overlay"></section>
-              <img src="../../public/home-6.jpg" className="row-3-pic" />
+              <img src="./home-6.jpg" className="row-3-pic" />
               <section className="row-3-slide-detail">
                 <h1 className="row-3-slide-detail-title">TANKS</h1>
                 <section className="row-3-slide-decoration">
@@ -158,7 +149,7 @@ export default function HomePage() {
             </SwiperSlide>
             <SwiperSlide className="ss5">
               <section className="row-3-overlay"></section>
-              <img src="../../public/home-7.jpg" className="row-3-pic" />
+              <img src="./home-7.jpg" className="row-3-pic" />
               <section className="row-3-slide-detail">
                 <h1 className="row-3-slide-detail-title">CHEMICAL</h1>
                 <section className="row-3-slide-decoration">
@@ -181,7 +172,7 @@ export default function HomePage() {
               industries”
             </h1>
             <img
-              src="../../public/icon.png"
+              src="./icon.png"
               alt="Logo PT. Sedulur Teknologi Indonesia"
               className="row-4-icon"
             />
@@ -189,40 +180,22 @@ export default function HomePage() {
           <section className="row-4-sub-2">
             <Marquee className="marquee" speed={200}>
               <a href="https://www.pheonwj-pertamina.com/" target="_blank">
-                <img
-                  src="../../public/client-1.png"
-                  className="icon-marquee-1"
-                />
+                <img src="./client-1.png" className="icon-marquee-1" />
               </a>
               <a href="https://www.bv.com/intl/" target="_blank">
-                <img
-                  src="../../public/client-2.png"
-                  className="icon-marquee-2"
-                />
+                <img src="./client-2.png" className="icon-marquee-2" />
               </a>
               <a href="https://phr.pertamina.com/" target="_blank">
-                <img
-                  src="../../public/client-3.png"
-                  className="icon-marquee-3"
-                />
+                <img src="./client-3.png" className="icon-marquee-3" />
               </a>
               <a href="https://ptfi.co.id/" target="_blank">
-                <img
-                  src="../../public/client-4.png"
-                  className="icon-marquee-4"
-                />
+                <img src="./client-4.png" className="icon-marquee-4" />
               </a>
               <a href="https://phi.pertamina.com/" target="_blank">
-                <img
-                  src="../../public/client-5.png"
-                  className="icon-marquee-5"
-                />
+                <img src="./client-5.png" className="icon-marquee-5" />
               </a>
               <a href="https://www.chandra-asri.com/" target="_blank">
-                <img
-                  src="../../public/client-6.png"
-                  className="icon-marquee-6"
-                />
+                <img src="./client-6.png" className="icon-marquee-6" />
               </a>
             </Marquee>
           </section>

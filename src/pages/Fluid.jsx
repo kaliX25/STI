@@ -23,7 +23,7 @@ export default function Primer_2_in_1() {
           <h1 className="row-1-about-company">Fluid - Float Coat</h1>
         </section>
         <section className="product-indepth nC-product">
-          <img src="../../public/nC-item.jpg" className="product-indepth-pic" />
+          <img src="./nC-item.jpg" className="product-indepth-pic" />
           <section className="product-detail-product">
             <h1>ABOUT Fluid - Float Coat</h1>
             <p>
