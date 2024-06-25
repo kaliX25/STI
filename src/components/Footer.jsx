@@ -77,7 +77,6 @@ export default function Footer() {
           <section className="footer-sub-2-col-2">
             <br />
             <br />
-            {/* <h1 className="footer-sub-2-title"></h1> */}
             <ul className="footer-product">
               <Link to="/fluid" className="footer-anchor" onClick={scrollToTop}>
                 Fluid
@@ -102,8 +101,6 @@ export default function Footer() {
         <div className="mapouter">
           <div className="gmap_canvas">
             <iframe
-              width="520"
-              height="360"
               id="gmap_canvas"
               src="https://maps.google.com/maps?q=Ruko+spectra+Jl.+bulevard+jalur+sutera+Blok+23B+no.07+Serpong+utara+Alam+sutera+-++Tangerang+-+Banten+Indonesia&t=&z=13&ie=UTF8&iwloc=&output=embed"
               frameBorder="0"
@@ -111,11 +108,6 @@ export default function Footer() {
               marginHeight="0"
               marginWidth="0"
             ></iframe>
-            <a href="https://online.stopwatch-timer.net/">timer for kids</a>
-            <br />
-            <a href="https://textcaseconvert.com/"></a>
-            <br />
-            <a href="https://www.mapembed.net">google maps embed</a>
           </div>
         </div>
       </section>

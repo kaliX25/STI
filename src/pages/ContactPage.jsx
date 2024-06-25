@@ -47,8 +47,8 @@ export default function Contact() {
           <div className="mapouter">
             <div className="gmap_canvas">
               <iframe
-                width="700"
-                height="650"
+                // width="700"
+                // height="650"
                 id="gmap_canvas"
                 src="https://maps.google.com/maps?q=Ruko+spectra+Jl.+bulevard+jalur+sutera+Blok+23B+no.07+Serpong+utara+Alam+sutera+-++Tangerang+-+Banten+Indonesia&t=&z=13&ie=UTF8&iwloc=&output=embed"
                 frameBorder="0"

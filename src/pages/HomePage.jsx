@@ -91,7 +91,7 @@ export default function HomePage() {
           {/* <h1 className="row-3-title">Key Industries</h1> */}
           <Swiper
             slidesPerView={3}
-            spaceBetween={20}
+            spaceBetween={10}
             loop={true}
             pagination={{
               clickable: true,

@@ -12,6 +12,7 @@ export default function Header({ home }) {
   const [dropdown, setdropdown] = React.useState(0);
   const [carbontech_dd, setCarbontech_dd] = React.useState(0);
   const [nC_dd, setnC_dd] = React.useState(0);
+  const [hamburgerClicked, setHamburgerClicked] = React.useState(0);
   React.useEffect(() => {
     const handleScroll = () => {
       setScrollY(window.scrollY);
@@ -21,6 +22,9 @@ export default function Header({ home }) {
       window.removeEventListener('scroll', handleScroll);
     };
   });
+  const handleHamburger = () => {
+    setHamburgerClicked(!hamburgerClicked);
+  };
   const dropdownClicked = () => {
     setdropdown(!dropdown);
   };
@@ -101,7 +105,15 @@ export default function Header({ home }) {
           />
         </Link>
       </section>
-      <ul className="anchor-wrapper">
+      <section
+        className={`hamburger ${hamburgerClicked ? 'is-active' : ''}`}
+        onClick={handleHamburger}
+      >
+        <section className="lines"></section>
+        <section className="lines"></section>
+        <section className="lines"></section>
+      </section>
+      <ul className={`anchor-wrapper ${hamburgerClicked ? 'is-actived' : ''}`}>
         <Link
           to={'/home'}
           className="anchor-el"
@@ -136,7 +148,6 @@ export default function Header({ home }) {
                 className="arrow_up"
               />
             )}
-            {/* <IoIosArrowDown color={scrollY > 600 ? 'black' : 'white'} /> */}
           </a>
           {!dropdown ? (
             <></>
