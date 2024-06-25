@@ -11,20 +11,20 @@ export default function Footer() {
     <footer>
       <section className="footer-wrap-1">
         <section className="footer-sub-1">
-          <img src="../../public/icon.png" className="footer-icon" />
+          <img src="./icon.png" className="footer-icon" />
           <section className="sub-1-wrap">
             <a
               href="https://wa.me/+8127600736"
               className="contact-anchor"
               target="_blank"
             >
-              <img src="../../public/whatsapp.png" className="footer-sosmed" />
+              <img src="./whatsapp.png" className="footer-sosmed" />
               +62 812-7600-736
             </a>
           </section>
           <section className="sub-1-wrap">
             <a href="tel:+76136147" className="contact-anchor" target="_blank">
-              <img src="../../public/telephone.png" className="footer-sosmed" />
+              <img src="./telephone.png" className="footer-sosmed" />
               +62 812-7600-736
             </a>
           </section>
@@ -114,8 +114,8 @@ export default function Footer() {
       <section className="footer-wrap-2">
         <p>@2024 PT. Sedulur Teknologi Indonesia, All Right Reserved.</p>
         <section className="sosmed-wrapper">
-          <img src="../../public/instagram.png" className="footer-sosmed-2" />
-          <img src="../../public/linkedin.png" className="footer-sosmed-2" />
+          <img src="./instagram.png" className="footer-sosmed-2" />
+          <img src="./linkedin.png" className="footer-sosmed-2" />
         </section>
       </section>
     </footer>
