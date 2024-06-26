@@ -26,7 +26,7 @@ export default function WetLaySystems() {
               className="product-row-2-1-el"
               onClick={scrollToTop}
             >
-              <img src="./product-1.jpg" className="product-el" />
+              <img src="./product-1.jpg" className="product-els" />
               <section className="product-row-2-1-el-decoration">
                 <h1>REVOWRAP 225</h1>
                 <section className="product-row-2-1-decoration-wrap">
@@ -44,7 +44,7 @@ export default function WetLaySystems() {
               className="product-row-2-2-el"
               onClick={scrollToTop}
             >
-              <img src="./product-2.jpg" className="product-el" />
+              <img src="./product-2.jpg" className="product-els" />
               <section className="product-row-2-2-el-decoration">
                 <h1>REVOWRAP 185</h1>
                 <section className="product-row-2-1-decoration-wrap">
@@ -63,7 +63,7 @@ export default function WetLaySystems() {
               <Link to="/revowrap-110" className="product-row-2-3-el">
                 <img
                   src="./product-3.jpg"
-                  className="product-el"
+                  className="product-els"
                   onClick={scrollToTop}
                 />
                 <section className="product-row-2-3-el-decoration">
@@ -83,7 +83,7 @@ export default function WetLaySystems() {
                 className="product-row-2-4-el"
                 onClick={scrollToTop}
               >
-                <img src="./product-4.jpg" className="product-el" />
+                <img src="./product-4.jpg" className="product-els" />
                 <section className="product-row-2-4-el-decoration">
                   <h1>REVOWRAP 80</h1>
                   <section className="product-row-2-1-decoration-wrap">

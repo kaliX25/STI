@@ -747,13 +747,21 @@ footer {
   width: 70%;
   height: 70%;
 }
+.product-row-2 {
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* flex-direction: row; */
+  /* flex-wrap: wrap; */
+}
 .product-row-2-1 {
   display: flex;
+  /* flex: 50%; */
+
   width: 100%;
   height: 80vh;
   overflow: hidden;
 }
-.product-el {
+.product-els {
   height: 100%;
   width: 100%;
   transition: 0.4s ease;
@@ -764,7 +772,7 @@ footer {
 .product-row-2-4-el {
   overflow: hidden;
   position: relative;
-  background: green;
+  /* background: green; */
   flex: 1;
 }
 .product-row-2-1-el-decoration,
@@ -1095,7 +1103,7 @@ body::-webkit-scrollbar-thumb {
     width: 70%;
     flex-direction: column;
     background: white;
-    box-shadow: 0 8px 24px 0 rgba(0, 0, 0, 1);
+    box-shadow: 0 8px 24px 0 rgba(0, 0, 0, 0.3);
   }
   .hamburger {
     position: relative;
@@ -1110,12 +1118,14 @@ body::-webkit-scrollbar-thumb {
     height: auto;
   }
   .anchor-wrapper {
-    opacity: 0;
+    right: -100%;
+    /* opacity: 0; */
     padding: 1rem;
-    transition: 0.2s ease;
+    transition: 0.3s ease;
   }
   .anchor-wrapper.is-actived {
-    opacity: 1;
+    right: 0;
+    /* opacity: 1; */
   }
   .anchor-el {
     background: var(--blue-1);
@@ -1182,7 +1192,27 @@ body::-webkit-scrollbar-thumb {
   }
   .contact-button-wrapper {
     position: absolute;
+
     transform: scaleX(0);
+  }
+  .contact-navbar {
+    font-family: sans-serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+    position: fixed;
+    bottom: 5vw;
+    left: 5vw;
+    color: black;
+    z-index: 99;
+    background: white;
+    height: 3rem;
+    width: 3rem;
+    /* padding: 0.2rem; */
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 8px 24px 0 rgba(0, 0, 0, 0.3);
   }
   .hamburger {
     z-index: 99;
@@ -1204,6 +1234,10 @@ body::-webkit-scrollbar-thumb {
   .hamburger .lines:nth-child(2) {
     margin-right: 0;
     width: 20px;
+  }
+  .hamburger.is-active {
+    position: fixed;
+    right: 5vw;
   }
   .hamburger.is-active .lines:nth-child(2) {
     opacity: 0;
@@ -1343,24 +1377,123 @@ body::-webkit-scrollbar-thumb {
     font-size: 1.6rem;
   }
   .about-row2 {
-    flex-direction: column;
-    /* flex-direction: column; */
-    /* padding: 0; */
+    width: 90%;
+    /* background: green; */
     padding-inline: 0;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0;
+    padding-block: 0;
+    padding: 5vw;
   }
-  .about-row2-img-wrapper {
-    flex: 2;
+
+  .about-row2-img-wrapper,
+  .about-row3-img-wrapper {
+    margin: 0;
+    width: 100%;
+    /* flex: 2; */
     border: none;
     flex: 1;
-    width: 50rem;
-    height: 50rem;
-    background: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* background: green; */
     /* width: 100rem; */
     /* height: 100rem; */
     /* background: green;
     width: 100%;
     height: 5rem; */
   }
+  .about-row2-pic1,
+  .about-row2-pic2,
+  .about-carbontech {
+    width: 100%;
+    position: static;
+    border-radius: 0;
+  }
+  .about-row2-detail,
+  .about-row3-detail {
+    font-size: 10vw;
+  }
+  .about-row3-detail h1 {
+    margin-top: 10vh;
+  }
+  .about-row2-detail h1 {
+    margin-top: 5vh;
+  }
+  .content-wrapper .about-row2:nth-child(5) {
+    margin-top: 10vh;
+  }
+  .about-standards-picture-wrap {
+    gap: 2.5rem;
+  }
+  .circle-logo {
+    height: 5rem;
+    width: 10rem;
+  }
+  .about-standards-detail {
+    font-size: 10vw;
+    justify-content: flex-start;
+    align-items: flex-start;
+    /* background: green; */
+    width: 80vw;
+    padding: 5vw;
+  }
+  .product-row-2-1 {
+    background: blue;
+    flex-direction: column;
+    height: 100vh;
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+  }
+  .product-row-2-1-el,
+  .product-row-2-2-el,
+  .product-row-2-3-el,
+  .product-row-2-4-el {
+    /* z-index: 9999; */
+    width: 100%;
+    background: green;
+  }
+  .product-row-2-1-el-decoration,
+  .product-row-2-2-el-decoration,
+  .product-row-2-3-el-decoration,
+  .product-row-2-4-el-decoration {
+    font-size: 0.8vw;
+  }
+  .product-carbontech {
+    height: 20vh;
+  }
+  .product-indepth {
+    flex-direction: column;
+    padding: 0;
+    padding-inline: 5vw;
+  }
+  .product-indepth-pic {
+    height: 30vh;
+    width: 100%;
+  }
+  .product-detail-product {
+    font-size: 8vw;
+    padding-inline: 0;
+    margin-bottom: 5vh;
+  }
+  .product-indepth-button {
+    font-size: 60%;
+    /* z-index: 99999; */
+  }
+  .nc-product-detail_ {
+    padding-inline: 5vw;
+    font-size: 1.8vw;
+  }
+  .contact-us-wrapper {
+    flex-direction: column;
+    gap: 10vh;
+    padding: 5vw;
+  }
+  /* .contact-wrap-2 {
+    z-index: 99999;
+  } */
   /* .anchor-wrapper {
     background: white;
     position: fixed;

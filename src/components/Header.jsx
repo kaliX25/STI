@@ -46,7 +46,7 @@ export default function Header({ home }) {
       mirror: false, // whether elements should animate out while scrolling past them
     });
     if (home) {
-      if (scrollY > 800) {
+      if (scrollY > 600) {
         setStyles((prevStyle) => ({
           ...prevStyle,
           background: 'white',
@@ -56,10 +56,18 @@ export default function Header({ home }) {
           right: 0,
           left: 0,
         }));
-        setAnchorStyles((prevStyles) => ({
-          ...prevStyles,
-          color: 'black',
-        }));
+        if (hamburgerClicked) {
+          setAnchorStyles((prevStyles) => ({
+            ...prevStyles,
+            color: 'white',
+          }));
+        } else {
+          setAnchorStyles((prevStyles) => ({
+            ...prevStyles,
+            color: 'black',
+          }));
+        }
+
         setContactStyles((prevStyles) => ({
           ...prevStyles,
           color: 'black',
@@ -87,7 +95,7 @@ export default function Header({ home }) {
         }));
       }
     }
-  }, [scrollY]);
+  }, [scrollY, hamburgerClicked]);
   const scrollToTop = () => {
     window.scrollTo({
       top: 0,
@@ -139,12 +147,12 @@ export default function Header({ home }) {
             Products
             {!dropdown ? (
               <IoIosArrowDown
-                color={scrollY > 600 ? 'black' : 'white'}
+                color={scrollY > 600 && !hamburgerClicked ? 'black' : 'white'}
                 className="arrow_down"
               />
             ) : (
               <IoIosArrowUp
-                color={scrollY > 600 ? 'black' : 'white'}
+                color={scrollY > 600 && !hamburgerClicked ? 'black' : 'white'}
                 className="arrow_up"
               />
             )}
