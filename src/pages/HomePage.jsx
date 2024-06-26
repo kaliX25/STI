@@ -2,26 +2,13 @@ import React from 'react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import { Link } from 'react-router-dom';
-import {
-  IoIosArrowDown,
-  IoIosArrowUp,
-  IoIosArrowForward,
-} from 'react-icons/io';
-// Import Swiper React components
+import { IoIosArrowForward } from 'react-icons/io';
 import { Swiper, SwiperSlide } from 'swiper/react';
-
-// Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 import '../styles/custom-swiper-bullet.css';
-// import './styles.css';
-
-// import required modules
 import { Pagination, Navigation } from 'swiper/modules';
-
-// import React from 'react';
-// import MyComponent from '../components/MyComponent';
 import Marquee from 'react-fast-marquee';
 
 import 'swiper/css/scrollbar';
@@ -88,7 +75,6 @@ export default function HomePage() {
           </p>
         </section>
         <section className="row-3">
-          {/* <h1 className="row-3-title">Key Industries</h1> */}
           <Swiper
             slidesPerView={3}
             spaceBetween={10}

@@ -1212,7 +1212,6 @@ body::-webkit-scrollbar-thumb {
     background: white;
     height: 3rem;
     width: 3rem;
-    /* padding: 0.2rem; */
     border-radius: 100%;
     display: flex;
     justify-content: center;

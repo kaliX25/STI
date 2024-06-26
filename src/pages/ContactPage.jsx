@@ -1,7 +1,6 @@
 import React from 'react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
-import { IoIosArrowForward } from 'react-icons/io';
 export default function Contact() {
   const [formData, setFormData] = React.useState({
     name: '',
@@ -47,8 +46,6 @@ export default function Contact() {
           <div className="mapouter">
             <div className="gmap_canvas">
               <iframe
-                // width="700"
-                // height="650"
                 id="gmap_canvas"
                 src="https://maps.google.com/maps?q=Ruko+spectra+Jl.+bulevard+jalur+sutera+Blok+23B+no.07+Serpong+utara+Alam+sutera+-++Tangerang+-+Banten+Indonesia&t=&z=13&ie=UTF8&iwloc=&output=embed"
                 frameBorder="0"
@@ -56,11 +53,8 @@ export default function Contact() {
                 marginHeight="0"
                 marginWidth="0"
               ></iframe>
-              {/* <a href="https://online.stopwatch-timer.net/">timer for kids</a> */}
               <br />
-              {/* <a href="https://textcaseconvert.com/"></a> */}
               <br />
-              {/* <a href="https://www.mapembed.net">google maps embed</a> */}
             </div>
           </div>
           <form className="contact-wrap-2">
