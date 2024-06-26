@@ -1065,6 +1065,10 @@ body::-webkit-scrollbar-thumb {
 .hamburger {
   position: absolute;
 }
+.contact-navbar {
+  position: absolute;
+  transform: scaleX(0);
+}
 @media only screen and (max-width: 1400px) {
   section.footer-wrap-1 {
     display: flex;
@@ -1196,6 +1200,7 @@ body::-webkit-scrollbar-thumb {
     transform: scaleX(0);
   }
   .contact-navbar {
+    transform: scaleX(1);
     font-family: sans-serif;
     font-size: 1.2rem;
     font-weight: 400;
