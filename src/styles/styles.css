@@ -1457,7 +1457,7 @@ body::-webkit-scrollbar-thumb {
   .product-row-2-4-el {
     /* z-index: 9999; */
     width: 100%;
-    background: green;
+    /* background: green; */
   }
   .product-row-2-1-el-decoration,
   .product-row-2-2-el-decoration,

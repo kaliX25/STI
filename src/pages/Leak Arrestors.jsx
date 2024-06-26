@@ -46,7 +46,7 @@ export default function LeakArrestors() {
               className="product-row-2-2-el"
               onClick={scrollToTop}
             >
-              <img src="../../public/product-7.jpg" className="product-els" />
+              <img src="./product-7.jpg" className="product-els" />
               <section className="product-row-2-2-el-decoration">
                 <h1>Revostrap</h1>
                 <section className="product-row-2-1-decoration-wrap">
@@ -62,10 +62,7 @@ export default function LeakArrestors() {
             </Link>
           </section>
           <section className="product-carbontech">
-            <img
-              src="../../public/carbontech.png"
-              className="logo-carbontech"
-            />
+            <img src="./carbontech.png" className="logo-carbontech" />
           </section>
         </section>
       </main>
