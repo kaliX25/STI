@@ -1,17 +1,8 @@
 import React from 'react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
-import AOS from 'aos';
 import 'aos/dist/aos.css';
 export default function Nc() {
-  React.useEffect(() => {
-    AOS.init({
-      duration: 800,
-      easing: 'ease',
-      once: true,
-      mirror: false,
-    });
-  });
   return (
     <>
       <Header home={true} />

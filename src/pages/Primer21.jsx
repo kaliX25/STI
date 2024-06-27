@@ -1,19 +1,9 @@
 import React from 'react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
-import AOS from 'aos';
 import { IoIosArrowForward } from 'react-icons/io';
 import 'aos/dist/aos.css';
 export default function Primer_2_in_1() {
-  React.useEffect(() => {
-    AOS.init({
-      // Global settings:
-      duration: 800, // values from 0 to 3000, with step 50ms
-      easing: 'ease', // default easing for AOS animations
-      once: true, // whether animation should happen only once - while scrolling down
-      mirror: false, // whether elements should animate out while scrolling past them
-    });
-  });
   return (
     <>
       <Header home={true} />

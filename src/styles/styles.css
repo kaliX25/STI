@@ -159,6 +159,7 @@ span {
 .row-1-detail {
   z-index: 3;
   color: white;
+  padding-block: 2vh;
 }
 .row-1-product-btn {
   text-decoration: none;
@@ -876,6 +877,7 @@ footer {
   padding-bottom: 0rem;
 }
 .product-detail-product h1 {
+  padding-bottom: 3vh;
   font-size: 70%;
   /* font-size: 2.5rem; */
 }
@@ -1007,6 +1009,7 @@ footer {
 }
 .product-detail-product h2 {
   font-size: 40%;
+  padding-top: 2vh;
 }
 .nc-product_feature {
   font-size: 30%;
@@ -1455,9 +1458,7 @@ body::-webkit-scrollbar-thumb {
   .product-row-2-2-el,
   .product-row-2-3-el,
   .product-row-2-4-el {
-    /* z-index: 9999; */
     width: 100%;
-    /* background: green; */
   }
   .product-row-2-1-el-decoration,
   .product-row-2-2-el-decoration,
