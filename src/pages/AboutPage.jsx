@@ -1,18 +1,17 @@
 import React from 'react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
-import AOS from 'aos';
+// import AOS from 'aos';
 import 'aos/dist/aos.css';
 export default function AboutPage() {
-  React.useEffect(() => {
-    AOS.init({
-      // Global settings:
-      duration: 800, // values from 0 to 3000, with step 50ms
-      easing: 'ease', // default easing for AOS animations
-      once: true, // whether animation should happen only once - while scrolling down
-      mirror: false, // whether elements should animate out while scrolling past them
-    });
-  });
+  // React.useEffect(() => {
+  //   AOS.init({
+  //     duration: 800,
+  //     easing: 'ease',
+  //     once: true,
+  //     mirror: false,
+  //   });
+  // });
   return (
     <>
       <Header home={true} />
@@ -26,14 +25,16 @@ export default function AboutPage() {
           <h1 className="row-1-about-company-indo">INDONESIA</h1>
         </section>
         <section className="about-row2">
-          <section className="about-row2-img-wrapper" data-aos="fade-right">
+          {/* data-aos="fade-right" */}
+          <section className="about-row2-img-wrapper">
             <img
               src="./home-2-ex.png"
               className="about-row2-pic1"
               data-aos="fade-up"
             />
           </section>
-          <section className="about-row2-detail" data-aos="fade-up">
+          {/* data-aos="fade-up" */}
+          <section className="about-row2-detail">
             <h1>Established in 2024</h1>
             <p>
               PT. Sedulur Teknologi Indonesia has swiftly established itself as
@@ -46,7 +47,8 @@ export default function AboutPage() {
           </section>
         </section>
         <section className="about-row2">
-          <section className="about-row3-detail" data-aos="fade-up">
+          {/* data-aos="fade-up" */}
+          <section className="about-row3-detail">
             <h1>Composite Technology</h1>
             <p>
               We are proud to provide the Revowrap® system from CARBONTECH, a
@@ -58,23 +60,20 @@ export default function AboutPage() {
               reinforcing our reputation for quality in every projects.
             </p>
           </section>
-          <section className="about-row3-img-wrapper" data-aos="fade-right">
-            <img
-              src="./REVOWRAP-225.png"
-              className="about-carbontech"
-              data-aos="fade-up"
-            />
+          {/* data-aos="fade-right" */}
+          <section className="about-row3-img-wrapper">
+            {/* data-aos="fade-up" */}
+            <img src="./REVOWRAP-225.png" className="about-carbontech" />
           </section>
         </section>
         <section className="about-row2">
-          <section className="about-row2-img-wrapper" data-aos="fade-right">
-            <img
-              src="./nC-item.jpg"
-              className="about-row2-pic2"
-              data-aos="fade-up"
-            />
+          {/* data-aos="fade-right" */}
+          <section className="about-row2-img-wrapper">
+            {/* data-aos="fade-up" */}
+            <img src="./nC-item.jpg" className="about-row2-pic2" />
           </section>
-          <section className="about-row2-detail" data-aos="fade-up">
+          {/* data-aos="fade-up" */}
+          <section className="about-row2-detail">
             <h1>Corrosion Protector</h1>
             <p>
               Additionally, we are proud to offer the nC Corrosion Passivator, a
@@ -90,21 +89,16 @@ export default function AboutPage() {
         <section className="about-standards">
           <section className="about-standards-picture-wrap">
             <section className="about-row2-circle">
-              <img
-                src="./asme.png"
-                className="circle-logo"
-                data-aos="fade-left"
-              />
+              {/* data-aos="fade-left" */}
+              <img src="./asme.png" className="circle-logo" />
             </section>
             <section className="about-row2-circle">
-              <img
-                src="./iso.png"
-                className="circle-logo"
-                data-aos="fade-right"
-              />
+              {/* data-aos="fade-right" */}
+              <img src="./iso.png" className="circle-logo" />
             </section>
           </section>
-          <section className="about-standards-detail" data-aos="fade-down">
+          {/* data-aos="fade-down" */}
+          <section className="about-standards-detail">
             <h1>International Standards</h1>
             <p>
               At PT. Sedulur Teknologi Indonesia, we adhere to international
